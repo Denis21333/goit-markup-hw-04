@@ -144,6 +144,13 @@ color: var(--accent-color);
 padding-top:200px ;
 padding-bottom: 200px;
 height: 600px;
+max-width: 1600;
+background-image:linear-gradient(to right ,
+ rgba(47, 48, 58, 0.4),
+ rgba(47, 48, 58, 0.4)),
+url(../images/hero/hero.jpg);
+background-size:cover ;
+background-repeat:no-repeat ;
 background-color: #2F303A;
 text-align: center;
 }
