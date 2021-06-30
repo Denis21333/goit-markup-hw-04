@@ -139,6 +139,8 @@ color: var(--accent-color);
 }
 
 
+  
+
 /* сукция героик */
 .hero{
 padding-top:200px ;
@@ -216,6 +218,9 @@ color:var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.71;
 }
+
+
+
 
 
 /* Робочая секция */
