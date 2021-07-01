@@ -94,7 +94,8 @@ color: var(--secondary-text-color);
 }
 
 
-.contact-link {
+.contact-link{
+display: inline-flex;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -138,8 +139,28 @@ color: var(--accent-color);
   padding-bottom:25px;
 }
 
+ .tell::before{
+  content:"" ;
+  width: 10px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position:  center;
+  background-size: contain;
+  background-image: url(../images/icons.svg/smartphone.svg);
+  margin-right: 8px;
+}
 
-  
+.mailto::before{
+  content:"" ;
+  width: 16px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-position:  center;
+  background-size: contain;
+  background-image: url(../images/icons.svg/mail.svg);
+  margin-right: 8px;
+}
+
 
 /* сукция героик */
 .hero{
@@ -219,9 +240,34 @@ color:var(--secondary-text-color);
   line-height: 1.71;
 }
 
+.features-item::before{
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color:#F5F4FA;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
 
+}
 
+.features-icon::before {
+  background-image: url(../images/icons.svg/features/antenna.svg);
 
+} 
+
+.features-icon-two::before {
+  background-image: url(../images/icons.svg/features/clock.svg);
+}
+
+.features-icon-three::before{
+  background-image:url(../images/icons.svg/features/diagram.svg);
+}
+
+.features-icon-four::before {
+background-image: url(../images/icons.svg/features/astronaut.svg);
+}
 
 /* Робочая секция */
 .section-title {
@@ -304,6 +350,7 @@ color: var(--secondary-text-color);
   padding-top:30px ;
   padding-bottom:30px ;
 }
+
 
 
 /* Футер */
