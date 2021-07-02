@@ -107,6 +107,13 @@ color: var( --primary-text-color );
 margin-right: 50px;
 }
 
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+
 
 
 .contact-link:hover,
@@ -286,13 +293,9 @@ background-image: url(../images/icons.svg/features/astronaut.svg);
   height: 120px;
   background-color: #F5F4FA;
   margin-bottom: 30px;
-  padding-top: 25px;
-  padding-bottom:25px;
-  padding-left: 102px;
-  padding-right: 102px;
   border-radius: 4px;
- 
 }
+
 
 
 /* Робочая секция */
@@ -463,9 +466,6 @@ fill:var(--accent-color)
   }
 
 
-
-
-
 /* Футер */
 .footer{
  padding-top: 60px;
@@ -506,16 +506,6 @@ color: var(--primary-bg-color);
 .address-link:focus {
   color: var(--accent-color);
 }
-
-
-
-
-.footer-set{
-  display: block;
-  justify-content: space-between;
-}
-
-
 
 
 /* Портфолио */
