@@ -139,7 +139,14 @@ color: var(--accent-color);
   padding-bottom:25px;
 }
 
- .tell::before{
+.svg-mail{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+
+ /* .tell::before{
   content:"" ;
   width: 10px;
   height: 16px;
@@ -159,7 +166,7 @@ color: var(--accent-color);
   background-size: contain;
   background-image: url(../images/icons.svg/mail.svg);
   margin-right: 8px;
-}
+} */
 
 
 /* сукция героик */
@@ -240,7 +247,7 @@ color:var(--secondary-text-color);
   line-height: 1.71;
 }
 
-.features-item::before{
+/* .features-item::before{
   display: block;
   content: "";
   width: 270px;
@@ -253,12 +260,12 @@ color:var(--secondary-text-color);
 }
 
 .features-icon::before {
-  background-image: url(../images/icons.svg/features/antenna.svg);
+  background-image: url(../images/icons-svg/symbol-defs.svg#icon-smartphone);
 
 } 
 
 .features-icon-two::before {
-  background-image: url(../images/icons.svg/features/clock.svg);
+  background-image: url(../images/icons.svg);
 }
 
 .features-icon-three::before{
@@ -267,7 +274,22 @@ color:var(--secondary-text-color);
 
 .features-icon-four::before {
 background-image: url(../images/icons.svg/features/astronaut.svg);
+} */
+
+
+.svg-features {
+  width:270px ;
+  height: 120px;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom:25px;
+  padding-left: 102px;
+  padding-right: 102px;
+  border-radius: 4px;
+ 
 }
+
 
 /* Робочая секция */
 .section-title {
@@ -347,10 +369,38 @@ color: var(--secondary-text-color);
 }
 
 .name-profession{
-  padding-top:30px ;
-  padding-bottom:30px ;
+ margin:30px ;
 }
 
+.link-icon-inst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  fill: #AFB1B8;;
+  
+}
+
+.link-icon-inst:hover,
+.link-icon-inst:focus{
+  background-color: var(--accent-color);
+  fill: #ffffff;
+}
+
+
+.icon-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  
+}
+/* 
+.link-icon-inst:not(:last-child) {
+  margin-right: 22px;
+} */
 
 
 /* Футер */
