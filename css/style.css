@@ -145,6 +145,10 @@ color: var(--accent-color);
   margin-right: 10px;
 }
 
+ .svg-mail:hover,
+ .svg-mail:focus{
+ fill:var(--accent-color);
+}
 
  /* .tell::before{
   content:"" ;
@@ -308,8 +312,6 @@ color: var(--secondary-text-color);
 }
 
 
-
-
 .img-title:not(:last-child){
   padding-right:30px ;
 }
@@ -402,6 +404,67 @@ color: var(--secondary-text-color);
   margin-right: 22px;
 } */
 
+/* Постоянные клиенты */
+
+.regular-section{
+  padding-top:94px ;
+  padding-bottom:94px ;
+}
+
+.regular-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--secondary-text-color);
+margin-bottom: 50px;
+
+}
+
+.regular-li{
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+padding: 23px 64px;
+margin-right: 30px;
+}
+
+.regular-li-two{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 23px 40px;
+
+}
+.regular-li-two:not(:last-child)
+{
+  margin-right: 30px;
+}
+
+.regular-ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regular-link{
+  background-color: #ffffff;
+  fill: #AFB1B8;; 
+}
+
+.regular-link:hover,
+.regular-link:focus{
+fill:var(--accent-color)
+  }
+
+
+
+
 
 /* Футер */
 .footer{
@@ -443,6 +506,15 @@ color: var(--primary-bg-color);
 .address-link:focus {
   color: var(--accent-color);
 }
+
+
+
+
+.footer-set{
+  display: block;
+  justify-content: space-between;
+}
+
 
 
 
